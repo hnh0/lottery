@@ -9,8 +9,6 @@ h1, h2, h3, h4, h5, p, em, img, ol, ul, li {
 }
 html{height: 100%;font-size: 62.5%;}
 body {
-  height: 100%;
-  min-height: 100%;
   box-sizing: border-box;
   font-family: Helvetica, 'STXihei', 'STHeiti Light', 'Microsoft yahei', sans-serif;
   line-height: 1;
@@ -121,6 +119,74 @@ a {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     flex: 1;
+}
+
+body{
+  background: url(../img/bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.logo{
+  width: 32%;
+  text-indent: -99999px;
+  display: block;
+  margin: 4% 0 0 4%;
+}
+.logo img{
+  width: 100%;
+  display: block;
+}
+.frame{
+  left: 8%;
+  right: 8%;
+  top: 9%;
+  bottom: 5%;
+  position: absolute;
+  background: url(../img/frame.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.frame.already{
+  background-image: url(../img/frame.jpg);
+}
+.already_fail{
+  width: 68%;
+  display: block;
+  font-size: 20px;
+  color: #034585;
+  text-align: center;
+  margin: 23% auto 0;
+  line-height: 24px;
+}
+.already_fail img{
+  width: 100%;
+  display: block;
+  margin-bottom: 20%;
+}
+.tuk{
+  width: 38%;
+  margin: 0 0 -1% -9.2%;
+  display: block;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.frame.after{
+  background-image: url(../img/frame_after.jpg);
+}
+.robber{
+  width: 38%;
+  margin: 0 0 -3% -9.2%;
+  display: block;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.after .already_fail{
+  margin-top: 10%;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.after .already_fail img{
+  margin-bottom: 15%;
 }
 
 
