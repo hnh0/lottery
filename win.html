@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>抽奖</title>
+    <meta name="description" content="">
+    <meta name="keywords" content=""> 
+    <link rel="stylesheet" href="./style/common.css" media="all">
+    <link rel="stylesheet" href="./style/howe.css" media="all">
+</head>
+
+<body>
+	<a class="logo" href="javascript:void(0);"><img src="./img/logo.png" alt="万达影业 WANDA PICTUERS" /></a>
+
+	<div class="frame win_frame">
+
+        <img src="./img/win.png" alt="" class="win">
+		<!-- ********** T恤 **********  -->
+        <img src="./img/T-shirt.png" alt="" class="win_t">
+        <div class="win_tag">
+        	<span class="">恭喜赢取 观影礼遇</span></br>
+        	<span class="win_name">— Kappa 限量T恤 —</span>
+        </div>
+
+        <!-- ********** 电影券 **********  -->
+		<!-- <img src="./img/movie.png" alt="" class="win_movie">
+        <div class="win_tag win_movie_tag">
+        	<span class="">恭喜赢取 观影礼遇</span></br>
+            <span class="win_name win_movie_name">— 电影券 2张 —</span></br>
+            <span class="win_dis">* 兑换码信息将在后续发送至您手机 *</span>
+        </div> -->
+
+		<!-- ********** 电脑包 **********  -->
+		<!-- <img src="./img/bag.png" alt="" class="win_bag">
+        <div class="win_tag win_bag_tag">
+        	<span class="">恭喜赢取 观影礼遇</span></br>
+            <span class="win_name win_bag_name">— 唐探纪念版电脑包 —</span>
+        </div> -->
+
+        <div class="win_form">
+        	<div class="win_form_item">
+        		<label for="name">姓名:</label>
+        		<input type="text" id="name" name="name" class="small_ipt">
+        	</div>	
+        	<div class="win_form_item">
+        		<label for="phone">电话:</label>
+        		<input type="text" id="phone" name="phone" class="small_ipt">
+        	</div>	
+        	<div class="win_form_item">
+        		<label for="addr">邮寄地址:</label>
+        		<input type="text" id="addr" name="addr" class="big_ipt">
+        	</div>
+        </div>
+        <div class="win_form_txt"> 请填写个人具体信息</br>以便于奖品顺利送达</div>
+        <a href="####" class="submit_btn" id="submit_info"></a>
+        <!-- <img src="./img/movie.png" alt="" class="win_movie">
+        <img src="./img/bag.png" alt="" class="win_bag"> -->
+	</div><!-- /.frame -->
+	<div class="layer_bg"></div>
+	<div class="win_result_ok box">
+		<img src="./img/ok_icon.png" alt="" class="result_icon ok"> 
+		<div class="result_txt">您的信息已经提交成功!</div>
+	</div>
+    <div class="win_result_fail box">
+		<img src="./img/fail_icon.png" alt="" class="result_icon fail"> 
+		<div class="result_txt">信息不完整，请重新提交!</div>
+	</div>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
