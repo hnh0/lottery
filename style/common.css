@@ -188,7 +188,74 @@ body{
 .after .already_fail img{
   margin-bottom: 15%;
 }
-
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: #fecb02;
+  font-size: 14px;
+  text-align: center;
+}
+footer span{
+  color: #fff;
+  display: block;
+  line-height: 35px;
+}
+footer img{
+  position: absolute;
+  display: block;
+}
+.boys{
+  width: 40%;
+  margin: -140px 0 0 -20px;
+}
+.laptop{
+  width: 30%;
+  right: 0;
+  margin: -30px -10px 0 0;
+}
+footer .tuk{
+  width: 26%;
+  margin: 0 0 0 10px;
+}
+.gif{
+  width: 65.625%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -99999px 0 0 -32.8125%;
+}
+.gif.show{
+  margin-top: -7%;
+}
+.lottery_box{
+  width: 100%;
+  margin: 4% 0 0;
+}
+.event_detail{
+  width: 10%;
+  height: 16%;
+  text-indent: -99999px;
+  display: block;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 32% 6.5% 0 0;
+}
+.btn{
+  width: 126px;
+  height: 30px;
+  display: block;
+  margin: -29% auto 0;
+  position: relative;
+  text-indent: -99999px;
+  background: url(../img/button.png) no-repeat center 0;
+  background-size: 126px 60px;
+}
+.btn.down{
+  background-position: center bottom;
+}
 
 
 
