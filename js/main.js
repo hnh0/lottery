@@ -63,11 +63,11 @@ var lottery = window.lottery || {};
 	};
 
 	$('#submit_info').on('click', function () {
-		var info = lottey.checkInfo();
+		var info = lottery.checkInfo();
 		if (info) {
-			lottey.showPass();
+			lottery.showPass();
 		}else{
-			lottey.showFail();
+			lottery.showFail();
 		}
 	});
 
